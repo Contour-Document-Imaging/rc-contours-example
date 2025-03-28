@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		77F4A240100B152D6CF29525 /* Pods_RCContourExampleiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDA93F8E40F98CF67AD65B /* Pods_RCContourExampleiOS.framework */; };
-		C779FB1C2D9699190083FC9A /* RCContourSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C779FB1B2D9699190083FC9A /* RCContourSDK.xcframework */; };
+		C779FB672D96AA760083FC9A /* RCContourSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C779FB1B2D9699190083FC9A /* RCContourSDK.xcframework */; };
+		C779FB682D96AA760083FC9A /* RCContourSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C779FB1B2D9699190083FC9A /* RCContourSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +19,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C779FB682D96AA760083FC9A /* RCContourSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C779FB1C2D9699190083FC9A /* RCContourSDK.xcframework in Frameworks */,
+				C779FB672D96AA760083FC9A /* RCContourSDK.xcframework in Frameworks */,
 				77F4A240100B152D6CF29525 /* Pods_RCContourExampleiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
