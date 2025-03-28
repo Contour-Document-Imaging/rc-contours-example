@@ -92,9 +92,6 @@ Then add ```tools:replace="android:allowBackup"``` under the application tag in 
 > [!NOTE]
 > Sync the project to resolve compile errors or restart Android Studio.
 
-> [!NOTE]
-> If you are using Jetpack Compose then follow the steps mentioned in the ```Installation using Gradle dependency``` section.
-
 ## Steps to install the license
 * Place the licence file in ```app/src/main/assets```.
 * The license file needs to have the name **contoursAI.license**. If the license file name does not match, it will lead to licensing errors.
