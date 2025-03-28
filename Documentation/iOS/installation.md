@@ -7,7 +7,7 @@ description: How to install RC Contour SDK™ on iOS.
 ## Requirements
 
 ### Xcode
-* We support Xcode 15 and above.
+* We support Xcode 16 and above.
 ### iOS
 * Minimum version of iOS supported is version 15.
 
