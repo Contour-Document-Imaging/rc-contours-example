@@ -1,14 +1,10 @@
 ---
-description: How to install Docusaurus locally, and start a Docusaurus site in no time.
+description: How to use  RC Contour SDK™ in your project.
 ---
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Usage
-
-:::tip
-Please make sure you have placed the license file as mentioned in the installation [section](installation.md).
-:::
+> [!TIP]
+> Please make sure you have placed the license file as mentioned in the installation section.
 
 ## Using UI Kit
 
@@ -25,11 +21,9 @@ func openContoursAISDK() {
 }
 ```
 
-:::info
-* **token** - Need to provide token to authenticate the user.
-
-* **clientId** - clientId will be provided by your CSM along with the license key.
-:::
+> [!NOTE]
+> * **token** - Need to provide token to authenticate the user.
+> * **clientId** - clientId will be provided by your CSM along with the license key.
 
 **Step 2.** Add **import RC_Contour_SDK** in the import section of the ViewController.
 
