@@ -14,7 +14,7 @@ description: How to install RC Contour SDK™ on Android.
 * Supported CPUs and [Architectures (ABIs)](https://developer.android.com/ndk/guides/arch.html): armeabi-v7a, arm64-v8a, x86, x86_64
 
 ## Steps to integrate RC Contour SDK™ using an AAR file
-* You can find the latest version of RC Contour SDK™ AAR file from Github. Please make sure to periodically check for updates to the SDK. 
+* You can find the latest version of RC Contour SDK™ AAR file from [Github](https://github.com/Contour-Document-Imaging/rc-contours-example/releases). Please make sure to periodically check for updates to the SDK. 
 * Create a new folder in the **same directory** where your 'app' module is located and name it the same as your .aar for example ```'rc-contour-release'``` for ```'rc-contour-release.aar'```.
 * Paste the ```rc-contour-release.aar``` file in that directory.
 * Create a new file in the  ```rc-contour-release``` directory and name it ```build.gradle```
@@ -40,7 +40,7 @@ implementation 'com.github.Contour-Document-Imaging:contours-ai-android-sdk:1.10
 > [!TIP]
 > If you prefer not to use Gradle for the Contour AI SDK™, you can also install it using the AAR file. Follow the steps below to add the Contour AI SDK™ as an AAR file.
 
-## Steps to integrate Contour AI SDK™ using an AAR file
+## Steps to integrate Contour AI SDK™ using an AAR file (If not using Contour AI SDK™ gradle dependency)
 
 * You can find the latest version of the AAR file from [Github](https://github.com/Contour-Document-Imaging/contours-ai-example/releases). Please make sure to periodically check for updates to the SDK. 
 * Create a new folder in the **same directory** where your 'app' module is located and name it the same as your .aar for example ```'contours-ai-release'``` for ```'contours-ai-release.aar'```.
@@ -66,7 +66,7 @@ implementation project(":contours-ai-release")
 implementation 'com.github.Contour-Document-Imaging:opencv4:v4.6.1'
 ```
 
-#### The libraries have been successfully integrated. Now, it's time to implement the next set of changes.
+## The libraries have been successfully integrated. Now, it's time to implement the next set of changes.
 
 * Open the settings.gradle file and add ```maven { url 'https://jitpack.io' }``` inside **repositories** or **allRepositories** section.
 * Put license file in the ```app/src/main/assets/``` directory.

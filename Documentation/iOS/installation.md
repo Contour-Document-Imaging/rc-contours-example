@@ -12,7 +12,7 @@ description: How to install RC Contour SDK™ on iOS.
 * Minimum version of iOS supported is version 15.
 
 ## Steps to integrate RC Contour SDK™ using a XCFramework file
-* Download the RC Contour SDK™ and Contour AI SDK™ XCFramework files from Github. Please make sure to periodically check for updates to the SDK.
+* Download the [RC Contour SDK™](https://github.com/Contour-Document-Imaging/rc-contours-example/releases) and [Contour AI SDK™](https://github.com/Contour-Document-Imaging/contours-ai-example/releases) XCFramework files from Github. Please make sure to periodically check for updates to the SDK.
 * Copy the framework files and paste it in the project folder.
 * Click on the Build Phase option and Link Binary with libraries. Click on + Sign -> Add other option -> Add File. Select the ```RCContourSDK.xcframework``` and ```ContoursAI_SDK.xcframework``` in the project folder and click open.
 * Now you will see ```RCContourSDK.xcframework``` and ```ContoursAI_SDK.xcframework``` is added to your frameworks folder.
