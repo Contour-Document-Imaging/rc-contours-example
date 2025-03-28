@@ -12,12 +12,14 @@ description: How to use  RC Contour SDK™ in your project.
 
 ```Swift
 func openContoursAISDK() {
-    let rcContourVC = RCContour.getLaunchScreen()
-    let configObj = Configuration.init(token: <TOKEN>, clientID:<CLIENT ID>)
-    RCContour.initialize(configuration: configObj)
-    let navigationController = UINavigationController(rootViewController: rcContourVC)
-    navigationController.modalPresentationStyle = .fullScreen
-    self.present(navigationController, animated: false)
+     var configuration = Configuration()
+     configuration.clientId = "<CLIENT ID>"
+     configuration.token = "<TOEKN>"
+     RCContour.initialize(configuration: configuration)
+     let rcContourVC = RCContour.getLaunchScreen()
+     let navigationController = UINavigationController(rootViewController: rcContourVC)
+     navigationController.modalPresentationStyle = .fullScreen
+     self.present(navigationController, animated: false)
 }
 ```
 
