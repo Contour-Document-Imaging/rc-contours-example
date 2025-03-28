@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,7 +33,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C779F8802D9677E50083FC9A /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		C779F8802D9677E50083FC9A /* Exceptions for "RCContourExampleiOS" folder in "RCContourExampleiOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +43,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C779F8702D9677E40083FC9A /* RCContourExampleiOS */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (C779F8802D9677E50083FC9A /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = RCContourExampleiOS; sourceTree = "<group>"; };
+		C779F8702D9677E40083FC9A /* RCContourExampleiOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C779F8802D9677E50083FC9A /* Exceptions for "RCContourExampleiOS" folder in "RCContourExampleiOS" target */,
+			);
+			path = RCContourExampleiOS;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +144,6 @@
 				};
 			};
 			buildConfigurationList = C779F8692D9677E40083FC9A /* Build configuration list for PBXProject "RCContourExampleiOS" */;
-			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,6 +152,7 @@
 			);
 			mainGroup = C779F8652D9677E40083FC9A;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = C779F86F2D9677E40083FC9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
