@@ -1,0 +1,47 @@
+---
+description: How to install Docusaurus locally, and start a Docusaurus site in no time.
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Usage
+
+:::tip
+Please make sure you have placed the license file as mentioned in the installation [section](installation.md).
+:::
+
+## Using UI Kit
+
+**Step 1.** Call following method to trigger RC Contour SDK™.
+
+```Swift
+func openContoursAISDK() {
+    let rcContourVC = RCContour.getLaunchScreen()
+    let configObj = Configuration.init(token: <TOKEN>, clientID:<CLIENT ID>)
+    RCContour.initialize(configuration: configObj)
+    let navigationController = UINavigationController(rootViewController: rcContourVC)
+    navigationController.modalPresentationStyle = .fullScreen
+    self.present(navigationController, animated: false)
+}
+```
+
+:::info
+* **token** - Need to provide token to authenticate the user.
+
+* **clientId** - clientId will be provided by your CSM along with the license key.
+:::
+
+**Step 2.** Add **import RC_Contour_SDK** in the import section of the ViewController.
+
+**Step 3.** Add following method in AppDelegate to support device orientation as Contour AI SDK™ will run only in landscape mode.
+
+```Swift
+import ContoursAI_SDK
+
+func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+    return ContoursAIFramework.shared.isLandscape ? .landscapeRight : .portrait
+}
+```
+
+## Simulators
+While it is possible to test your app with the RC Contour SDK™ on simulators, we strongly recommend using real iOS devices. Depending on the emulated camera you may not be able to test/evaluate the full functionality of the RC Contour SDK™.
