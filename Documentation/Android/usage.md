@@ -4,9 +4,8 @@ description: How to use RC contour SDK.
 
 # Usage
 
-:::tip
-Please make sure you have placed the license file as mentioned in the installation [section](installation.md).
-:::
+> [!TIP]
+> Please make sure you have placed the license file as mentioned in the installation section.
 
 **Step 1.** Call below method where you want to start RC Contour SDK™. 
 
