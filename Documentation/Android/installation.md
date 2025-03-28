@@ -37,9 +37,8 @@ to:-
 implementation project(":rc-contour-release")
 implementation 'com.github.Contour-Document-Imaging:contours-ai-android-sdk:1.10.5'
 ```
-:::tip
-If you prefer not to use Gradle for the Contour AI SDK™, you can also install it using the AAR file. Follow the steps below to add the Contour AI SDK™ as an AAR file.
-:::
+> [!TIP]
+> If you prefer not to use Gradle for the Contour AI SDK™, you can also install it using the AAR file. Follow the steps below to add the Contour AI SDK™ as an AAR file.
 
 ## Steps to integrate Contour AI SDK™ using an AAR file
 
@@ -90,18 +89,16 @@ Manifest merger failed : Attribute application@allowBackup value=(true) from And
 is also present.
 ```
 Then add ```tools:replace="android:allowBackup"``` under the application tag in ```AndroidManifest.xml```. Also add ``` xmlns:tools="http://schemas.android.com/tools"``` under the manifest tag if not added already.
-:::note
-Sync the project to resolve compile errors or restart android studio.
-:::
+> [!NOTE]
+> Sync the project to resolve compile errors or restart Android Studio.
 
-:::note
-If you are using Jetpack Compose then follow the steps mentioned in the ```Installation using Gradle dependency``` section.
-:::
+> [!NOTE]
+> If you are using Jetpack Compose then follow the steps mentioned in the ```Installation using Gradle dependency``` section.
+
 ## Steps to install the license
 * Place the licence file in ```app/src/main/assets```.
 * The license file needs to have the name **contoursAI.license**. If the license file name does not match, it will lead to licensing errors.
 * Make sure that your ApplicationId matches the ApplicationId that was provided while requesting the license file.
 
-:::note
-You will need to acquire a license file to successfully use the RC Contour SDK™. Please contact your CSM at Urban FT to get your license file. You will need to provide your ```ApplicationID``` when requesting the license file. Get more information regarding our terms [here](../legal/licensing).
-:::
+> [!NOTE]
+> You will need to acquire a license file to successfully use the RC Contour SDK™. Please contact your CSM at Urban FT to get your license file. You will need to provide your ```ApplicationID``` when requesting the license file. 
