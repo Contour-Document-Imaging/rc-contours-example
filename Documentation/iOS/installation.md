@@ -24,8 +24,8 @@ description: How to install RC Contour SDK™ on iOS.
 
 <!-- ![Exclude arm64 support](/img/arm64.png "Exclude arm64 support") -->
 
-:::info
-If you are facing issue in running the app on simulator then add below code in your pod file.
+> [!NOTE]
+> If you are facing issue in running the app on simulator then add below code in your pod file.
 ```
 post_install do |installer|      
 installer.pods_project.build_configurations.each do |config|        
@@ -33,17 +33,14 @@ installer.pods_project.build_configurations.each do |config|
     end
 end
 ```
-:::
 
 ## Steps to install the license
 * Place the licence file anywhere within the Project Bundle.
 * The license file needs to have the name **contoursAI.license**. If the license file name does not match, it will lead to licensing errors.
 * Make sure that your BundleIdentifier matches the BundleIdentifier that was provided while requesting the license file.
 
-:::note
-You will need to acquire a license file to successfully use the RC Contour SDK™. Please contact your CSM at Urban FT to get your license file. You will need to provide your ```BundleIdentifier``` when requesting the license file. Get more information regarding our terms [here](../legal/licensing).
-:::
+> [!NOTE]
+> You will need to acquire a license file to successfully use the RC Contour SDK™. Please contact your CSM at Urban FT to get your license file. You will need to provide your ```BundleIdentifier``` when requesting the license file.
 
-:::tip
-Please make sure that RC Contour SDK™ is signed with team ID ```A77YYNYWPS```  
-:::
+> [!TIP]
+> Please make sure that RC Contour SDK™ is signed with team ID ```A77YYNYWPS```  
