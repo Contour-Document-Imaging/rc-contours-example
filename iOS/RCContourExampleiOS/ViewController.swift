@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     
     func openSDK() {
         var configuration = Configuration()
-        configuration.clientId = "<CLIENT ID>"
-        configuration.token = "<TOEKN>"
+        configuration.clientId = "YOUR_CLIENT_ID"
+        configuration.token = "YOUR_TOKEN"
         RCContour.initialize(configuration: configuration)
         let rcContourVC = RCContour.getLaunchScreen()
         let navigationController = UINavigationController(rootViewController: rcContourVC)
