@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name RC_Contour_SDK
+// swift-module-flags: -target arm64-apple-ios15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RC_Contour_SDK
 import AVFoundation
 import ContoursAI_SDK
 import CoreLocation
@@ -298,18 +298,14 @@ public typealias FadeOutAnimation = (UIKit.UIView, @escaping () -> Swift.Void) -
 }
 @_hasMissingDesignatedInitializers open class ProgressView {
   open func showProgressView()
-  open func showProgressView(onView: UIKit.UIView)
+  open func showProgressView(onView: UIKit.UIView, size: CoreFoundation.CGFloat = 80)
+  open func showProgressViewOnImage(onView: UIKit.UIImageView, size: CoreFoundation.CGFloat = 80)
   open func hideProgressView()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency public class IndicatorView : UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var indicatorSize: CoreFoundation.CGSize {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor @preconcurrency public func showIndicator(isStart: Swift.Bool = true)
-  @_Concurrency.MainActor @preconcurrency public func stopAnimating()
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class IndicatorView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency open func showProgressView(onView: UIKit.UIView, size: CoreFoundation.CGFloat = 20)
+  @_Concurrency.MainActor @preconcurrency open func hideProgressView()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -338,8 +334,9 @@ extension UIKit.UILabel {
 }
 public struct Configuration {
   public var token: Swift.String?
-  public var accountList: [Swift.String]?
   public var clientId: Swift.String?
+  public var termAndCondition: Swift.String?
+  public var days: Swift.String?
   public init(token: Swift.String = "", clientID: Swift.String = "")
 }
 @_hasMissingDesignatedInitializers public class RCContour {
@@ -352,19 +349,7 @@ public struct Configuration {
 public struct Localizable {
   public init(_ rawValue: Swift.String)
 }
-@objc public protocol AmountTableViewCellDelegate {
-  @objc func doneButtonTapped(_ sender: Any)
-}
-@objc public protocol AmountDataCellDelegate {
-  @objc func inputTextFieldText(_ input: Swift.String)
-  @objc func doneButtonTapped(_ input: Swift.String)
-  @objc func dropDown()
-}
 public struct UploadCheckRequest {
-}
-@objc public protocol TransactionDetailHeaderDelegate {
-  @objc func inputTextFieldText(_ input: Swift.String)
-  @objc func doneButtonTapped(_ input: Swift.String)
 }
 public typealias JSON = [Swift.String : Any]
 public typealias CallBackTwoAny = (Any, Any) -> ()
