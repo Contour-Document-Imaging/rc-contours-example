@@ -1,0 +1,24 @@
+{
+  "originHash" : "9196ae5b35e91dc408da39d3f1cbe645d460c05afbab4999b00b55fd3b1ead74",
+  "pins" : [
+    {
+      "identity" : "contour-ai-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Contour-Document-Imaging/contour-ai-sdk-spm.git",
+      "state" : {
+        "revision" : "a03e32f271de83d94bae956b59ed76efb9316b45",
+        "version" : "1.11.1"
+      }
+    },
+    {
+      "identity" : "rc-contour-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Contour-Document-Imaging/rc-contour-sdk-spm.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6e23898e52555cfa65b321f7331c5311b8ed4ed1"
+      }
+    }
+  ],
+  "version" : 3
+}

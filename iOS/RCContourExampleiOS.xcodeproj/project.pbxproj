@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77F4A240100B152D6CF29525 /* Pods_RCContourExampleiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDA93F8E40F98CF67AD65B /* Pods_RCContourExampleiOS.framework */; };
-		C779FB672D96AA760083FC9A /* RCContourSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C779FB1B2D9699190083FC9A /* RCContourSDK.xcframework */; };
-		C779FB682D96AA760083FC9A /* RCContourSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C779FB1B2D9699190083FC9A /* RCContourSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8262B6F52DF1816200D45088 /* ContoursAI_SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8262B6F42DF1816200D45088 /* ContoursAI_SDK */; };
+		8262B6F82DF1817F00D45088 /* RCContourSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8262B6F72DF1817F00D45088 /* RCContourSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +18,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C779FB682D96AA760083FC9A /* RCContourSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -27,11 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4161EC17270CEB88B7F18D7E /* Pods-RCContourExampleiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCContourExampleiOS.debug.xcconfig"; path = "Target Support Files/Pods-RCContourExampleiOS/Pods-RCContourExampleiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		75FDA93F8E40F98CF67AD65B /* Pods_RCContourExampleiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCContourExampleiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CD6A018A07E9880FDC813D /* Pods-RCContourExampleiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCContourExampleiOS.release.xcconfig"; path = "Target Support Files/Pods-RCContourExampleiOS/Pods-RCContourExampleiOS.release.xcconfig"; sourceTree = "<group>"; };
 		C779F86E2D9677E40083FC9A /* RCContourExampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCContourExampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C779FB1B2D9699190083FC9A /* RCContourSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RCContourSDK.xcframework; path = Frameworks/RCContourSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -60,28 +54,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C779FB672D96AA760083FC9A /* RCContourSDK.xcframework in Frameworks */,
-				77F4A240100B152D6CF29525 /* Pods_RCContourExampleiOS.framework in Frameworks */,
+				8262B6F52DF1816200D45088 /* ContoursAI_SDK in Frameworks */,
+				8262B6F82DF1817F00D45088 /* RCContourSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		56D8C19828BC0C4D5F62B0F0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4161EC17270CEB88B7F18D7E /* Pods-RCContourExampleiOS.debug.xcconfig */,
-				98CD6A018A07E9880FDC813D /* Pods-RCContourExampleiOS.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		838E0799C47F00EDE1308F61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C779FB1B2D9699190083FC9A /* RCContourSDK.xcframework */,
-				75FDA93F8E40F98CF67AD65B /* Pods_RCContourExampleiOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,7 +74,6 @@
 			children = (
 				C779F8702D9677E40083FC9A /* RCContourExampleiOS */,
 				C779F86F2D9677E40083FC9A /* Products */,
-				56D8C19828BC0C4D5F62B0F0 /* Pods */,
 				838E0799C47F00EDE1308F61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -111,11 +93,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C779F8812D9677E50083FC9A /* Build configuration list for PBXNativeTarget "RCContourExampleiOS" */;
 			buildPhases = (
-				9C0A352AB13949F1A32AF388 /* [CP] Check Pods Manifest.lock */,
 				C779F86A2D9677E40083FC9A /* Sources */,
 				C779F86B2D9677E40083FC9A /* Frameworks */,
 				C779F86C2D9677E40083FC9A /* Resources */,
-				6F54394B393C8EE3950DFEF7 /* [CP] Embed Pods Frameworks */,
 				C779F8EA2D967B7A0083FC9A /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -154,6 +134,10 @@
 			);
 			mainGroup = C779F8652D9677E40083FC9A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8262B6F32DF1816200D45088 /* XCRemoteSwiftPackageReference "contour-ai-sdk-spm" */,
+				8262B6F62DF1817F00D45088 /* XCRemoteSwiftPackageReference "rc-contour-sdk-spm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C779F86F2D9677E40083FC9A /* Products */;
 			projectDirPath = "";
@@ -174,48 +158,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		6F54394B393C8EE3950DFEF7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCContourExampleiOS/Pods-RCContourExampleiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCContourExampleiOS/Pods-RCContourExampleiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCContourExampleiOS/Pods-RCContourExampleiOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9C0A352AB13949F1A32AF388 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RCContourExampleiOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		C779F86A2D9677E40083FC9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -229,7 +171,6 @@
 /* Begin XCBuildConfiguration section */
 		C779F8822D9677E50083FC9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4161EC17270CEB88B7F18D7E /* Pods-RCContourExampleiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -262,7 +203,6 @@
 		};
 		C779F8832D9677E50083FC9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98CD6A018A07E9880FDC813D /* Pods-RCContourExampleiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +374,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8262B6F32DF1816200D45088 /* XCRemoteSwiftPackageReference "contour-ai-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Contour-Document-Imaging/contour-ai-sdk-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.1;
+			};
+		};
+		8262B6F62DF1817F00D45088 /* XCRemoteSwiftPackageReference "rc-contour-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Contour-Document-Imaging/rc-contour-sdk-spm.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8262B6F42DF1816200D45088 /* ContoursAI_SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8262B6F32DF1816200D45088 /* XCRemoteSwiftPackageReference "contour-ai-sdk-spm" */;
+			productName = ContoursAI_SDK;
+		};
+		8262B6F72DF1817F00D45088 /* RCContourSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8262B6F62DF1817F00D45088 /* XCRemoteSwiftPackageReference "rc-contour-sdk-spm" */;
+			productName = RCContourSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C779F8662D9677E40083FC9A /* Project object */;
 }

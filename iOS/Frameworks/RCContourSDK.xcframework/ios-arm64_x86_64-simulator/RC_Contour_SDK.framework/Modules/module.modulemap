@@ -1,6 +1,0 @@
-framework module RC_Contour_SDK {
-  umbrella header "RC_Contour_SDK.h"
-  export *
-
-  module * { export * }
-}
