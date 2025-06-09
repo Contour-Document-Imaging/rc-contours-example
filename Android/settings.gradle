@@ -16,10 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io'
+            credentials { username "jp_2lb7istcj3ktonl2ug4gsf089n" }}
     }
 }
 
 rootProject.name = "RCContourExampleAndroid"
 include ':app'
-include ':rc-contour-release'
+/*include ':rc-contour-release'*/
