@@ -46,5 +46,5 @@ dependencies {
     implementation libs.material
 
     implementation 'com.github.Contour-Document-Imaging:contours-ai-android-sdk:1.11.1'
-    implementation 'com.github.Contour-Document-Imaging:rc-contour-android-sdk:1.0.0-alpha.3'
+    implementation 'com.github.Contour-Document-Imaging:rc-contour-android-sdk:Debug1.0.4'
 }
