@@ -15,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.urbanft.cws"
+        applicationId "com.rc.contour.sdk.example"
         minSdk 21
         targetSdk 35
         versionCode 1
