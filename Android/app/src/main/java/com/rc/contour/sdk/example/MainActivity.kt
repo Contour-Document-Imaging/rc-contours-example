@@ -21,6 +21,7 @@ class MainActivity: AppCompatActivity() {
             val contourModel = RCContourModel()
             contourModel.clientId = ""
             contourModel.token = ""
+            contourModel.environmentId = ""
             RCContour.launchSdk(this, contourModel, object: IContourResultListener {
                 override fun onSDKClosed() {
 
