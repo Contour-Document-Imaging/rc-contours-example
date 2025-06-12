@@ -17,11 +17,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uvu-5V-bhE">
-                                <rect key="frame" x="123.66666666666667" y="391" width="145.66666666666663" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="Y2m-NG-X1a"/>
-                                </constraints>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Vc4-I2-yKh">
+                                <rect key="frame" x="32" y="114.99999999999999" width="329" height="183.66666666666663"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Client id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LoH-pX-fNi">
+                                        <rect key="frame" x="0.0" y="0.0" width="329" height="28.666666666666668"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="KBy-Pr-jYx"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Environment id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-6v-BkN">
+                                        <rect key="frame" x="0.0" y="51.66666666666665" width="329" height="28.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="GNT-0X-tmM"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Token" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Kw-st-1os">
+                                        <rect key="frame" x="0.0" y="103.33333333333334" width="329" height="28.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="QRZ-MS-8x8"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Environment Type" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="60J-Es-Wqc">
+                                        <rect key="frame" x="0.0" y="155" width="329" height="28.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="qVD-gv-bSJ"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uvu-5V-bhE">
+                                <rect key="frame" x="124" y="397" width="145.66666666666663" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Open SDK">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
@@ -34,14 +69,21 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Uvu-5V-bhE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bLI-Cp-ren"/>
-                            <constraint firstItem="Uvu-5V-bhE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ciG-8E-AjD"/>
+                            <constraint firstItem="Vc4-I2-yKh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="IE2-jX-mBE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vc4-I2-yKh" secondAttribute="trailing" constant="32" id="M80-xW-Gae"/>
+                            <constraint firstItem="Vc4-I2-yKh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="h9Z-uP-xqF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clientIdTextField" destination="LoH-pX-fNi" id="1Ta-ki-54X"/>
+                        <outlet property="environmentIdTextField" destination="zEq-6v-BkN" id="tOr-yv-WpW"/>
+                        <outlet property="environmentTypeTextField" destination="60J-Es-Wqc" id="2iw-Pn-6fV"/>
+                        <outlet property="tokenTypeTextField" destination="9Kw-st-1os" id="DvC-W8-3Fr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="4"/>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
