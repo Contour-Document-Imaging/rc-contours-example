@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         var configuration = Configuration()
         configuration.clientId = "YOUR_CLIENT_ID"
         configuration.token = "YOUR_TOKEN"
+        configuration.environmentId = "ENVIRONMENT_ID"
         RCContour.initialize(configuration: configuration)
         let rcContourVC = RCContour.getLaunchScreen()
         let navigationController = UINavigationController(rootViewController: rcContourVC)
