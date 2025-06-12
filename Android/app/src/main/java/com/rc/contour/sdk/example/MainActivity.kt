@@ -4,6 +4,7 @@ package com.rc.contour.sdk.example
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.contourdocumentimaging.sdk.contour_rc.callbacks.IContourResultListener
 import com.contourdocumentimaging.sdk.contour_rc.modules.RCContour
@@ -16,6 +17,7 @@ class MainActivity: AppCompatActivity() {
     private lateinit var buttonOpenSdk: Button
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
