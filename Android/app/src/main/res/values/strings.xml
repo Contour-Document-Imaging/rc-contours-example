@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RCContourExampleAndroid</string>
+    <string name="environment_id">Environment id</string>
+    <string name="token">Token</string>
+    <string name="environment_type">Environment Type</string>
+    <string name="client">Client</string>
 </resources>

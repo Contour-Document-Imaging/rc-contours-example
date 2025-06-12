@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rc.contour.sdk.example"
+        applicationId "com.rccontour.urbanft"
         minSdk 21
         targetSdk 35
         versionCode 1
@@ -37,6 +37,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '11'
+    }
+    buildFeatures{
+        viewBinding true
     }
 }
 

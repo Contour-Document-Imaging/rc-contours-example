@@ -3,11 +3,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <EditText
+        android:id="@+id/etClientId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginStart="@dimen/dp_18"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:hint="@string/client"
+        android:imeOptions="actionDone"
+        android:paddingStart="@dimen/dp_8"
+        android:background="@drawable/rc_bg_edittext_filled_stroke"
+        android:layout_marginTop="@dimen/dp_32"/>
+
+    <EditText
+        android:id="@+id/etEnvironmentId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginStart="@dimen/dp_18"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:hint="@string/environment_id"
+        android:paddingStart="@dimen/dp_8"
+        android:layout_below="@+id/etClientId"
+        android:background="@drawable/rc_bg_edittext_filled_stroke"
+        android:layout_marginTop="@dimen/dp_16"/>
+
+    <EditText
+        android:id="@+id/etToken"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginStart="@dimen/dp_18"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:hint="@string/token"
+        android:paddingStart="@dimen/dp_8"
+        android:layout_below="@+id/etEnvironmentId"
+        android:background="@drawable/rc_bg_edittext_filled_stroke"
+        android:layout_marginTop="@dimen/dp_16"/>
+
+    <EditText
+        android:id="@+id/etEnvironmentType"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginStart="@dimen/dp_18"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:hint="@string/environment_type"
+        android:paddingStart="@dimen/dp_8"
+        android:layout_below="@+id/etToken"
+        android:background="@drawable/rc_bg_edittext_filled_stroke"
+        android:layout_marginTop="@dimen/dp_16"/>
+
     <Button
         android:id="@+id/openSDK"
         android:text="Open SDK"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
 </RelativeLayout>
