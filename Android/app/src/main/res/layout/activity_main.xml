@@ -12,6 +12,7 @@
         android:layout_marginEnd="@dimen/dp_18"
         android:hint="@string/client"
         android:imeOptions="actionDone"
+        android:singleLine="true"
         android:paddingStart="@dimen/dp_8"
         android:background="@drawable/rc_bg_edittext_filled_stroke"
         android:layout_marginTop="@dimen/dp_32"/>
@@ -23,6 +24,8 @@
         android:layout_marginStart="@dimen/dp_18"
         android:layout_marginEnd="@dimen/dp_18"
         android:hint="@string/environment_id"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
         android:paddingStart="@dimen/dp_8"
         android:layout_below="@+id/etClientId"
         android:background="@drawable/rc_bg_edittext_filled_stroke"
@@ -35,6 +38,8 @@
         android:layout_marginStart="@dimen/dp_18"
         android:layout_marginEnd="@dimen/dp_18"
         android:hint="@string/token"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
         android:paddingStart="@dimen/dp_8"
         android:layout_below="@+id/etEnvironmentId"
         android:background="@drawable/rc_bg_edittext_filled_stroke"
@@ -49,6 +54,8 @@
         android:hint="@string/environment_type"
         android:paddingStart="@dimen/dp_8"
         android:layout_below="@+id/etToken"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
         android:background="@drawable/rc_bg_edittext_filled_stroke"
         android:layout_marginTop="@dimen/dp_16"/>
 
