@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">RCContourExampleAndroid</string>
+
+        <string name="rc_front">Front</string>
+        <string name="rc_accounts_not_found">No associated account found. Please make sure to have at least one account added.</string>
+        <string name="rc_ok">OK</string>
+        <string name="rc_api_error_message">We could not process your request at this moment. Please try again after some time.</string>
+
+        <string name="rc_check_your_internet_connection">Check your internet connection and try again.</string>
+        <string name="rc_no_connection">No connection</string>
+        <string name="rc_got_it">Got it</string>
+
+        <string name="rc_mobile_limit_title">Mobile Deposit limits</string>
+
+        <string name="rc_approved">Approved</string>
+        <string name="rc_pending">Pending %1s</string>
+        <string name="rc_declined">Declined %1s</string>
+
+
+        <string name="rc_approved_status">Your check deposit has been accepted</string>
+        <string name="rc_declined_on">Declined on</string>
+        <string name="rc_approved_on">Approved on</string>
+        <string name="rc_pending_status">Your check deposit is in review</string>
+        <string name="rc_sent_on">Sent on</string>
+        <string name="rc_uar_status">Your check deposit is in review</string>
+        <string name="rc_declined_status">Your check deposit has been declined</string>
+        <string name="rc_manual_select_status">Your check deposit is in review</string>
+        <string name="rc_settings_message">You have to accept camera and storage permissions from the settings to capture the document.</string>
+
+        <string name="rc_deposit_limit_message_rc">Available deposit per day: %1s(%2s)\nAvailable item per day: %1d(%2d)\nAvailable 30 days limit: %3s(%4s)</string>
+        <string name="rc_warning_daily_limit_exceeded">Your deposit exceeds the available daily deposit limit. Tap for more details.</string>
+        <string name="rc_warning_daily_item_limit_reached">You have exceeded the maximum number of items allowed per day. Tap for more details.</string>
+        <string name="rc_warning_limit_reached_30_days">Your rolling 30-day limit has been reached. Tap for more details.</string>
+        <string name="rc_warning_exceeding_more_limits">Your deposit exceeds one or more limits. Tap for more details.</string>
+        <string name="rc_deposit_check">Deposit check</string>
+        <string name="rc_to_account">To account</string>
+        <string name="rc_checking">Checking *</string>
+        <string name="rc_available_balance">Available balance $</string>
+        <string name="rc_maximum_daily_limit">Maximum daily deposit limit </string>
+        <string name="rc_api_deposit_message">Your funds will be available within 10 business days of your deposit.</string>
+        <string name="rc_more_info_hyperlink">Account</string>
+        <string name="rc_deposit_info">For more information on check deposits, see Account Disclosures, Terms &amp; Conditions</string>
+        <string name="rc_info_link">see Account Disclosures, Terms &amp; Conditions</string>
+        <string name="rc_submit_securely">Submit securely</string>
+        <string name="rc_summary">Summary</string>
+        <string name="rc_amount">Amount</string>
+        <string name="rc_accepted_on">Accepted on</string>
+        <string name="rc_confirmation_number">Confirmation number</string>
+        <string name="rc_close">Close</string>
+        <string name="rc_save">Save</string>
+        <string name="rc_out_of"> out of</string>
+        <string name="rc_your_check_deposit_has_been_accepted">Your check deposit has been accepted</string>
+        <string name="rc_something_went_right"> Uh oh! Something went wrong</string>
+        <string name="rc_Alert">Alert</string>
+        <string name="rc_font_bold_key">Poppins-Bold</string>
+        <string name="rc_font_regular_key">Poppins-Regular</string>
+        <string name="rc_font_semibold_key">Poppins-SemiBold</string>
+        <string name="rc_font_medium_key">Poppins-Medium</string>
+        <string name="rc_more_info_url">https://www.google.com/</string>
+    </resources>

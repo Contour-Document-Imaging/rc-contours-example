@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="rc_accessibility_back_button">Back</string>
+        <string name="rc_accessibility_cross_button">Close</string>
+        <string name="rc_accessibility_got_it_button">Got It Button</string>
+        <string name="rc_accessibility_check_preview_imageview">Check Preview ImageView</string>
+        <string name="rc_accessibility_back_check_imageview">Back Check ImageView</string>
+        <string name="rc_accessibility_front_check_imageview">Front Check ImageView</string>
+        <string name="rc_accessibility_info_icon">Info Icon</string>
+        <string name="rc_accessibility_history_icon">History Icon</string>
+        <string name="rc_accessibility_title">RC Contour</string>
+        <string name="rc_accessibility_success">Success Icon</string>
+        <string name="rc_accessibility_heading">Heading</string>
+        <string name="rc_accessibility_Link">Link</string>
+        <string name="rc_accessibility_cross">Cross icon</string>
+        <string name="rc_accessibility_Declined">Declined icon</string>
+        <string name="rc_accessibility_notification">Notification icon</string>
+        <string name="rc_accessibility_pending">Pending icon</string>
+        <string name="rc_accessibility_entered_amount">Enter amount</string>
+        <string name="rc_accessibility_entered_amount_edit_box">Enter amount edit box</string>
+        <string name="rc_accessibility_Button">Button</string>
+        <string name="rc_accessibility_secure">Secure</string>
+        <string name="rc_accessibility_review_icon">Review icon</string>
+        <string name="rc_accessibility_to_error_icon">Error icon</string>
+        <string name="rc_accessibility_text">Text</string>
+        <!-- These strings are used to accessibility descriptions for ImageCheckViewButton, e.g., "Capture front of check button" -->
+        <string name="rc_accessibility_front_check_camera">Capture front of check button</string>
+        <string name="rc_accessibility_back_check_camera">Capture back of check button</string>
+        <!-- These strings are used to append accessibility descriptions after the front and back TextViews respectively, e.g., "front of check heading" -->
+        <string name="rc_accessibility_append_after_front"> of check heading</string>
+        <string name="rc_accessibility_append_after_back"> of check heading</string>
+        <string name="rc_accessibility_approved_status">Your check deposit has been accepted</string>
+        <string name="rc_accessibility_deposit_status">Your check deposit is in review</string>
+    </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rc_color_surface">#000000</color>
+    <color name="rc_color_layout_bg">#000000</color>
+    <color name="rc_color_text_primary_light">#FFFFFF</color>
+    <color name="rc_color_card_bg">#1c1c1c</color>
+    <color name="rc_color_info_bg">#1c1c1c</color>
+    <color name="rc_color_text_primary">#FFFFFF</color>
+    <color name="rc_color_divider">#414141</color>
+    <color name="rc_color_separator">#CCCCCC</color>
+    <color name="rc_color_disable">#6A6A6A</color>
+    <color name="rc_color_btn_bg">#2B2B2B</color>
+    <color name="rc_color_inactive">#6A6A6A</color>
+    <color name="rc_color_icon_success">#FFFFFF</color>
+    <color name="rc_color_surface_background">#2B2B2B</color>
+    <color name="rc_color_error">#FFFFFF</color>
+    <color name="rc_color_pending">#FFFFFF</color>
+    <color name="rc_color_ic_error">#FFFFFF</color>
+    <color name="rc_color_single_account">#2B2B2B</color>
+</resources>

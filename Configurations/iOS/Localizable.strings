@@ -1,0 +1,59 @@
+/*
+ Localizable.strings
+  UrbanFT
+ 
+ Created by UrbanFT on 06/03/25.
+ Copyright © 20125 UrbanFT. All rights reserved.
+ */
+
+"rcBack" = "Back";
+"rcFront" = "Front";
+"rcSomethingWrong" = "We could not process your request at this moment. Please try again after some time.";
+"rcNoconnection"       = "No connection";
+"rcNoconnectionDesc"      = "Check your internet connection and try again.";
+"rcError" = "Uh oh! Something went wrong";
+"rcSettings" = "Settings";
+"deniedButton" = "Cancel";
+"rcOK" = "OK";
+"rcRetryButton" = "Retry";
+"rcSomethingNotRight" = "Something's not right...";
+"rcApprovedOn" = "Accepted on";
+"rcSentOn" = "Sent on";
+"rcDeclineOn" = "Declined on";
+"rcDepositedTo" = "To account";
+"rcConfirmationNo" = "Confirmation number";
+"rcMobileDeposit" = "Mobile deposit";
+"rcGotIt" = "Got it";
+"rcMobileLimits" = "Mobile deposit limits";
+"rcNoAssociatedAccount" = "No associated account found. Please make sure to have at least one account added.";
+"rcNoData" = "We could not process your request at this moment. Please try again after some time.";
+"rcPhotoInstaruction" = "Photo Instruction";
+"rcWarningLimitReached30Days" = "Your rolling 30-day limit has been reached. Tap for more details.";
+"rcWarningLimitReachedDaily" = "Your deposit exceeds the available daily deposit limit. Tap for more details.";
+"rcWarningItemLimitReachedDaily" = "You have exceeded the maximum number of items allowed per day. Tap for more details.";
+"rcWarningExceedMoreLimits" = "Your deposit exceeds one or more limits. Tap for more details.";
+"rcInfoText"= "Your funds will be available within 10 business days of your deposit.";
+"rcAmount" = "Amount";
+"rcMaximumDailyDepositLimit" = "Maximum daily deposit limit";
+"rcTermCondition" = "For more information on check deposits, see Account Disclosures, Terms & Conditions";
+"rcRangeTermCondition" = "Account Disclosures, Terms & Conditions";
+"rcSubmitSecurely" = "Submit securely";
+"rcAvailablePerDay" = "Available deposit per day:";
+"rcAvailableItemsPerDay" = "Available items per day:";
+"rcAvailable30DayPerDay" = "Available 30 days limit:";
+"rcCheckDepositReview" = "Your check deposit is in review";
+"rcYourCheckDepositAccepted" = "Your check deposit has been accepted";
+"rcYourCheckDepositDecline" = "Your check deposit has been declined";
+"rcDepositCheck" = "Deposit check";
+"rcSummary" = "Summary";
+"rcClose" = "Close";
+"rcSave" = "Save";
+"rcOutOfAccessibility" = "out of";
+"rcEnteredAmount" = "entered amount";
+"rcCaptureFrontCheckAccessibility" = "Capture front of check";
+"rcCapturekRearCheckAccessibility" = "Capture back of check";
+"rcFrontHeadingAccessibility" = "front of check";
+"rcRearHeadingAccessibility" = "back of check";
+"rcSecureButton" = "Secure Submit Securely";
+"rcInfoTextAccessibility"= "hi Info image Your funds will be available within 10 business days of your deposit.";
+ 
