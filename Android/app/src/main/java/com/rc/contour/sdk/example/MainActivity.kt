@@ -1,7 +1,6 @@
 package com.rc.contour.sdk.example
 
 import android.os.Bundle
-import android.util.Base64
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.contourdocumentimaging.sdk.contour_rc.callbacks.IContourResultListener
@@ -22,6 +21,7 @@ class MainActivity: AppCompatActivity() {
             contourModel.clientId = ""
             contourModel.token = ""
             contourModel.environmentId = ""
+            contourModel.isLocationEnabled = false
             RCContour.launchSdk(this, contourModel, object: IContourResultListener {
                 override fun onSDKClosed() {
 
