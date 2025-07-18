@@ -380,16 +380,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Contour-Document-Imaging/contour-ai-sdk-spm.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.11.1;
+				kind = exactVersion;
+				version = 1.11.1;
 			};
 		};
 		8262B6F62DF1817F00D45088 /* XCRemoteSwiftPackageReference "rc-contour-sdk-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Contour-Document-Imaging/rc-contour-sdk-spm.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
