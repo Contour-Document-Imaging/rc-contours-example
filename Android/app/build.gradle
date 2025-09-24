@@ -46,5 +46,5 @@ dependencies {
     implementation libs.androidx.appcompat
     implementation libs.material
 
-    implementation 'com.github.Contour-Document-Imaging:rc-contour-android-sdk:1.2.0'
+    implementation 'com.github.Contour-Document-Imaging:rc-contour-android-sdk:1.2.1'
 }
