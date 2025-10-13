@@ -389,7 +389,7 @@
 			repositoryURL = "https://github.com/Contour-Document-Imaging/rc-contour-sdk-spm.git";
 			requirement = {
 				kind = exactVersion;
-				version = 1.2.0;
+				version = 1.2.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

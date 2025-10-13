@@ -57,4 +57,7 @@
         <string name="rc_font_semibold_key">Poppins-SemiBold</string>
         <string name="rc_font_medium_key">Poppins-Medium</string>
         <string name="rc_more_info_url">https://www.google.com/</string>
+        <string name="rc_no_internet_connection_heading">No internet connection</string>
+        <string name="rc_check_your_connection_and_try_again">Check your connection and try again.</string>
+        <string name="rc_go_back_button_text">Go back</string>
     </resources>

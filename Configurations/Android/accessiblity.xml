@@ -31,4 +31,5 @@
         <string name="rc_accessibility_append_after_back"> of check heading</string>
         <string name="rc_accessibility_approved_status">Your check deposit has been accepted</string>
         <string name="rc_accessibility_deposit_status">Your check deposit is in review</string>
+        <string name="rc_accessibility_on_no_internet_layout_Image">Error</string>
     </resources>
