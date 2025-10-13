@@ -56,4 +56,6 @@
 "rcRearHeadingAccessibility" = "back of check";
 "rcSecureButton" = "Secure Submit Securely";
 "rcInfoTextAccessibility"= "hi Info image Your funds will be available within 10 business days of your deposit.";
+"rcNoconnection"       = "No internet connection";
+"rcNoconnectionDesc"   = "Check your connection and try again.";
  
