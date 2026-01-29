@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
     <resources>
-        <string name="rc_accessibility_back_button">Back</string>
-        <string name="rc_accessibility_cross_button">Close</string>
+        <string name="rc_accessibility_back_button">Back </string>
+        <string name="rc_accessibility_cross_button">Close </string>
         <string name="rc_accessibility_got_it_button">Got It Button</string>
         <string name="rc_accessibility_check_preview_imageview">Check Preview ImageView</string>
         <string name="rc_accessibility_back_check_imageview">Back Check ImageView</string>

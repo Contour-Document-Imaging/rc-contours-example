@@ -22,7 +22,7 @@
         <string name="rc_approved_on">Approved on</string>
         <string name="rc_pending_status">Your check deposit is in review</string>
         <string name="rc_sent_on">Sent on</string>
-        <string name="rc_uar_status">Your check deposit is in review</string>
+        <string name="rc_uar_status">Your deposit has been submitted</string>
         <string name="rc_declined_status">Your check deposit has been declined</string>
         <string name="rc_manual_select_status">Your check deposit is in review</string>
         <string name="rc_settings_message">You have to accept camera and storage permissions from the settings to capture the document.</string>
