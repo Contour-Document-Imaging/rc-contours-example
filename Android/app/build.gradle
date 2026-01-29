@@ -8,7 +8,7 @@ android {
     compileSdk 35
 
     packagingOptions {
-        exclude '/lib/x86_64/libopencv_java4.so'
+        exclude '/lib/**/libopencv_java4.so'
         pickFirst '/lib/**/libc++_shared.so'
     }
 
