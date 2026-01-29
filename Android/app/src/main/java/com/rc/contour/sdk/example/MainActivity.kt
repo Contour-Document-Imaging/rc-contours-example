@@ -14,7 +14,7 @@ class MainActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        RCContour.preInitSDK(applicationContext, "<CLIENT_ID>")
         buttonOpenSdk = findViewById(R.id.openSDK)
         buttonOpenSdk.setOnClickListener {
             val contourModel = RCContourModel()

@@ -109,42 +109,6 @@
 			<string>FFFFFF</string>
 		</dict>
 	</dict>
-	<key>popupScreen</key>
-	<dict>
-		<key>backgroundColorHexCode</key>
-		<string>FFFFFF</string>
-		<key>buttonCTA</key>
-		<dict>
-			<key>fontName</key>
-			<string>Poppins-Bold</string>
-			<key>buttonBackgroundColor</key>
-			<string>346DE9	</string>
-			<key>fontColorHexCode</key>
-			<string>FFFFFF</string>
-			<key>fontSize</key>
-			<integer>15</integer>
-		</dict>
-		<key>description</key>
-		<dict>
-			<key>fontName</key>
-			<string>Poppins-Regular</string>
-			<key>fontSize</key>
-			<integer>15</integer>
-			<key>fontColorHexCode</key>
-			<string>767676</string>
-		</dict>
-		<key>title</key>
-		<dict>
-			<key>fontName</key>
-			<string>Poppins-Bold</string>
-			<key>fontColorHexCode</key>
-			<string>2a2a2a</string>
-			<key>fontSize</key>
-			<integer>17</integer>
-		</dict>
-		<key>popupWidth</key>
-		<integer>300</integer>
-	</dict>
 	<key>cornerSelectionScreen</key>
 	<dict>
 		<key>closeButton</key>
@@ -648,17 +612,23 @@
 	<key>RCContour</key>
 	<dict>
 		<key>termAndCondition</key>
-		<string>https://urbanft.com</string>
+		<string>https://google.com</string>
 		<key>fontFamily</key>
 		<string>Poppins</string>
 		<key>lightTheme</key>
 		<dict>
+			<key>statusViewBackgroundColor</key>
+			<string>F5F5F5</string>
+			<key>statusInfoIconColor</key>
+			<string>141414</string>
+			<key>limitErrorImage</key>
+			<string>errorIconLight</string>
 			<key>errorImage</key>
 			<string>errorIconLight</string>
 			<key>pendingImage</key>
 			<string>rcPendingLight</string>
 			<key>UARImage</key>
-			<string>rcUARLight</string>
+			<string>rcAccepetdLight</string>
 			<key>declineImage</key>
 			<string>rcDeclineLight</string>
 			<key>acceptedImage</key>
@@ -681,17 +651,27 @@
 			<string>414141</string>
 			<key>disableColor</key>
 			<string>F5F5F5</string>
+			<key>errorColor</key>
+			<string>D20D00</string>
+			<key>itemLimitBannerBackgroundColor</key>
+			<string>FFEDEC</string>
 		</dict>
 		<key>darkTheme</key>
 		<dict>
-			<key>errorImage</key>
+			<key>statusViewBackgroundColor</key>
+			<string>2B2B2B</string>
+			<key>statusInfoIconColor</key>
+			<string>ffffff</string>
+			<key>limitErrorImage</key>
 			<string>errorIconDark</string>
+			<key>errorImage</key>
+			<string>errorIconLight</string>
 			<key>acceptedImage</key>
 			<string>rcAccepetdDark</string>
 			<key>declineImage</key>
 			<string>rcDeclineDark</string>
 			<key>UARImage</key>
-			<string>rcUARDark</string>
+			<string>rcAccepetdDark</string>
 			<key>pendingImage</key>
 			<string>rcPendingDark</string>
 			<key>separatorColor</key>
@@ -712,7 +692,58 @@
 			<string>F5F5F5</string>
 			<key>descTextColor</key>
 			<string>CCCCCC</string>
+			<key>itemLimitBannerBackgroundColor</key>
+			<string>3D0400</string>
+			<key>errorColor</key>
+			<string>D20D00</string>
 		</dict>
+	</dict>
+	<key>popupScreen</key>
+	<dict>
+		<key>closeButton</key>
+		<dict>
+			<key>isPositionTopLeft</key>
+			<true/>
+			<key>enableCloseButton</key>
+			<true/>
+		</dict>
+		<key>popupBackgroundColorHexCode</key>
+		<string>252525</string>
+		<key>backgroundColorHexCode</key>
+		<string>FFFFFF</string>
+		<key>buttonCTA</key>
+		<dict>
+			<key>cornerRadius</key>
+			<integer>30</integer>
+			<key>fontName</key>
+			<string>Poppins-Bold</string>
+			<key>buttonBackgroundColor</key>
+			<string>346DE9	</string>
+			<key>fontColorHexCode</key>
+			<string>FFFFFF</string>
+			<key>fontSize</key>
+			<integer>15</integer>
+		</dict>
+		<key>description</key>
+		<dict>
+			<key>fontName</key>
+			<string>Poppins-Regular</string>
+			<key>fontSize</key>
+			<integer>15</integer>
+			<key>fontColorHexCode</key>
+			<string>767676</string>
+		</dict>
+		<key>title</key>
+		<dict>
+			<key>fontName</key>
+			<string>Poppins-Bold</string>
+			<key>fontColorHexCode</key>
+			<string>2a2a2a</string>
+			<key>fontSize</key>
+			<integer>17</integer>
+		</dict>
+		<key>popupWidth</key>
+		<integer>300</integer>
 	</dict>
 </dict>
 </plist>
